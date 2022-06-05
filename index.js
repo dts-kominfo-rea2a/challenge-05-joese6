@@ -18,13 +18,15 @@ const sorter = (data,fnData)=>{
 // TODO: Fungsi untuk mengurutkan array of string secara ascending
 // mengembalikan array yang sudah diurutkan
 const sortAscending = (names)=>{
-  names.sort();
+  let data=names.sort();
+  return data;
 };
 
 // TODO: Fungsi untuk mengurutkan array of string secara descending
 // mengembalikan array yang sudah diurutkan
 const sortDescending = (names)=>{
-  names.sort().reverse();
+  let data=names.sort().reverse();
+  return data;
 };
 
 // ! JANGAN DIMODIFIKASI
