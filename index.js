@@ -9,8 +9,8 @@ const names = ["Halo", "Angel", "Nyoman", "Ketut", "Aisyah"];
 const sorter = (data,fnData)=>{
   let sortData=fnData(data);
   let arrNama=[]
-  for(let i=0;i<sortData.length;i++){
-      arrNama.push(i+1+'. ' +sortData[i]);
+  for(let i=0;i<data.length;i++){
+      arrNama.push(i+1+'. ' +data[i]);
   }
   return arrNama;
 };
